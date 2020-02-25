@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="style.css">
+        <script src="game.js"></script>
+        <title>Paper Clip  Game</title>
+    <head>
+    <body>
+        <h2>
+            <p id="paperclips">Paper clips</p>
+        </h2>
+
+        <hr>
+
+        <h3>sales</h3>
+        <p id="stock">Stock: </p>
+        <p id="money">Money: </p>
+        <p id="wire">Wire: </p>
+
+        <input title="Click to buy wire"
+                type="submit"
+                value="Buy Wire"
+                onclick="buyWire()">
+
+        <hr>
+
+        
+<h3>Manafacturing</h3>
+
+        <input title="Click to make a paperclip"
+                type="submit"
+                value="Make paper clips"
+                onclick="makeClip()">
+
+        <p id="aclip">Auto CLips</p>
+
+        <button title="Make paperclips automatically"
+                id='auto'
+        onclick="autoClip()" >Auto Clips</button>
+
+        <hr>
+
+
+        <h3>Demand</h3>
+        <p id="sellprice">Sell price: </p>
+        <input title="Click to Increase price"
+                type="submit"
+                value="Increase"
+                onclick="increasePrice()">
+
+        <button title="Increase price"
+                id='auto'
+        onclick="autoClip()" >Demand</button>
+
+        <input title="Click to Decrease price"
+        type="submit"
+        value="Decrease"
+        onclick="decreasePrice()">
+
+        <button title="Decrease price"
+        id='auto'
+onclick="autoClip()" >Demand</button>
+
+<p id="Demand">Demand: </p> 
+        
+    </body>    
